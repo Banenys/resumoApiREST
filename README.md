@@ -2,27 +2,35 @@
 
 
 
-    # Api REST e RESTFul
+# Api REST e RESTFul
 
 
-Uma API REST (Interface de Programação de Aplicações em Transferência de Estado Representacional) é um conjunto de princípios arquitetônicos para o desenvolvimento de serviços da web. Ele utiliza o protocolo HTTP para comunicação e é baseado em conceitos como recursos, Identificadores Uniformes de Recursos (URI), representação e manipulação de estado.
+	Uma API REST (Interface de Programação de Aplicações em Transferência de Estado Representacional) é um conjunto de princípios arquitetônicos para o
+ 	desenvolvimento de serviços da web. Ele utiliza o protocolo HTTP para comunicação e é baseado em conceitos como recursos, Identificadores Uniformes
+	de Recursos (URI), representação e manipulação de estado.
 
 
-    ## Diferenças entre REST e RESTFul
+## Diferenças entre REST e RESTFul
 
 
-REST (Transferência de Estado Representacional) é uma arquitetura de comunicação que define um conjunto de princípios para a criação de serviços web. Ele usa métodos HTTP e é baseado em conceitos como recursos, URIs (Uniform Resource Identifiers), representações e ações em recursos. REST não é uma implementação específica, mas um conjunto de instruções.
-RESTful refere-se à implementação desses princípios, na prática. Uma API é considerada RESTful quando segue os princípios e práticas recomendadas definidos pelo REST. Isso inclui o uso de URIs adequados para identificar recursos, escolher os métodos HTTP corretos para executar operações de recursos (GET, POST, PUT, DELETE, etc.) e manipular adequadamente os códigos de status HTTP.
+	REST (Transferência de Estado Representacional) é uma arquitetura de comunicação que define um conjunto de princípiospara a criação de serviços web.
+	Ele usa métodos HTTP e é baseado em conceitos como recursos, URIs (Uniform Resource Identifiers), representações e ações em recursos. REST não é uma
+	implementação específica, mas um conjunto de instruções.
+	RESTful refere-se à implementação desses princípios, na prática. Uma API é considerada RESTful quando segue os princípios e práticas recomendadas 
+	definidos pelo REST. Isso inclui o uso de URIs adequados para identificar recursos, escolher os métodos HTTP corretos para executar operações de
+	recursos (GET, POST, PUT, DELETE, etc.) e manipular adequadamente os códigos de status HTTP.
+	
 
 	- REST: Esta é uma arquitetura de comunicação que define os princípios para a criação de serviços web, mas não especifica a implementação detalhada.   
 	- RESTful: refere-se à implementação prática destes princípios, seguindo os princípios REST.   
 	- REST: Pode ser mais teórico, abrangendo conceitos e princípios básicos. 
 	- RESTful: envolve a aplicação prática destes conceitos em uma API específica, garantindo conformidade com os princípios REST.  
 
-Resumindo, a diferença fundamental entre REST e RESTful está na implementação real. REST é um conjunto de princípios, enquanto RESTful representa a aplicação desses princípios na criação de serviços web. Ambas são plataformas para desenvolvimento de APIs eficientes e escaláveis.
+	Resumindo, a diferença fundamental entre REST e RESTful está na implementação real. REST é um conjunto de princípios, enquanto RESTful representa a
+	aplicação desses princípios na criação de serviços web. Ambas são plataformas para desenvolvimento de APIs eficientes e escaláveis.
     
 
-    ## HTTP verbs
+## HTTP verbs
 
 
     Os verbos HTTP são métodos que indicam a ação solicitada em um recurso. Alguns dos verbos mais comuns são:   
@@ -38,7 +46,7 @@ Resumindo, a diferença fundamental entre REST e RESTful está na implementaçã
 	- HEAD: Similar ao Get, mas não requer um corpo da resposta.
 
 
-    ## HTTP Status Code
+## HTTP Status Code
 
 
     Código de status HTTP retornado como parte da resposta a uma solicitação HTTP, indicando o resultado da operação. Alguns códigos comuns incluem:   
